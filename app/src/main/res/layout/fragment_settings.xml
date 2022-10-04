@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentSettings"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="40sp"
+           android:text="Profile information"
+           android:gravity="center"
+           android:textColor="#000"
+           android:layout_margin="10dp" />
+
+       <TextView
+           android:id="@+id/loginOn"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textSize="27sp"
+           android:text="Last log in: "
+           android:gravity="center"
+           android:textColor="#000"
+           android:layout_margin="10dp" />
+
+       <de.hdodenhof.circleimageview.CircleImageView
+           android:id="@+id/profile_image"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="20sp"
+           android:src="@drawable/atomlogo"/>
+       <TextView
+           android:id="@+id/name"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Name Surname"
+           android:textSize="30sp"
+           android:textColor="#000"
+           android:gravity="center"
+           android:layout_marginTop="20sp"/>
+       <TextView
+           android:id="@+id/email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Email@"
+           android:textSize="30sp"
+           android:textColor="#000"
+           android:gravity="center"
+           android:layout_marginTop="20sp"/>
+
+       <Button
+           android:id="@+id/logout"
+           android:layout_width="250sp"
+           android:layout_gravity="center"
+           android:layout_height="wrap_content"
+           android:text="Exit application"
+           android:textSize="20sp"
+           android:textColor="#ffffff"
+           android:background="#000"
+           android:layout_marginTop="50sp"/>
+
+
+   </LinearLayout>
+
+
+</FrameLayout>

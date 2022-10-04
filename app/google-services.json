@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "81004295217",
+    "firebase_url": "https://norch-2137-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "norch-2137",
+    "storage_bucket": "norch-2137.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81004295217:android:d7353f8123267195509110",
+        "android_client_info": {
+          "package_name": "com.example.n0rchdesign"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81004295217-5b8fditpud8higlcp84u776uvu4ca5e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.n0rchdesign",
+            "certificate_hash": "47ff0ca98be3403d2a6d67bcbcc3bae042d04532"
+          }
+        },
+        {
+          "client_id": "81004295217-31rghptcun5j59s7m70qqk1p4cknl23s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFT8YHtzG9xO39S7SNbVFJMnQjiKI5wtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81004295217-31rghptcun5j59s7m70qqk1p4cknl23s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
